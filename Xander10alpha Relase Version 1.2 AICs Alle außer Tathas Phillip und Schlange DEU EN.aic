@@ -4,6 +4,10 @@ AIFileHeader
 	{
 		Diese .aic stammt von Xander10alpha und behebt die folgenden Fehler und Macken der KIs:
 
+		Wichtig: Tathas Phillip und Schlange funktioneren nicht damit, da sie zu wenig Bevölkerung haben!
+			 Wer Evrey und Vanilla spielt hat keine Probleme. Phillip und Schlange haben eine starken
+			 Wirtschafts boost bekommen!
+
 		Alle Änderungen sind von der Original vanilla.aic.
 
 		-Allgemein:
@@ -232,6 +236,9 @@ AIFileHeader
 	DescrEng
 	{
 		This .aic comes from Xander10alpha and fixes the following bugs and quirks of the AIs:
+
+		Important: Tathas Phillip and Schlange do not work with it, because they have too little population!
+			   Who plays Evrey and Vanilla has no problems. Phillip and Snake got a strong economic boost!
 
 		All changes are from the original vanilla.aic.
 

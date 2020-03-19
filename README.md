@@ -1,6 +1,7 @@
 # AICs-Xander10alpha
 
-English
+English:
+
 My AICs for Stronghold Crusader
 
 These AICs are used to show Stroghold Crusader players better AI so they have a better challenge.
@@ -12,7 +13,8 @@ The castles of Evrey, Tatha and Vanilla are playable with these AICs.
 
 Have fun with this challenge!
 
-German
+German:
+
 Meine AICs für Stronghold Crusader
 
 Diese AICs dienen dazu Spieler von Stroghold Crusader eine bessere KI zu präsentieren, damit sie eine bessere Herausforderung haben.

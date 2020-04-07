@@ -4,7 +4,7 @@ English:
 
 My AICs for Stronghold Crusader
 
-These AICs are used to show Stroghold Crusader players better AI so they have a better challenge.
+These AICs are used to show Stronghold Crusader players better AI so they have a better challenge.
 I made sure that everyone who has the new Stronghold Crusader Patch can play with it.
 
 Link to the patch: https://github.com/Sh0wdown/UnofficialCrusaderPatch/releases

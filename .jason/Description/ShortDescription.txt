@@ -1,0 +1,13 @@
+Mit dieser Charakterdatei wird die KI eine Herausforderung für den Spieler.
+Das Ziel die vorhandenen KI's in jedem möglichen Aspekt zu stärken wird durch folgende Anpassungen erreicht:
+-> Deutlich konsistenteres KI Verhalten in allen Spielphasen
+-> Angriffs-, Verteidigungs- und Raidverhalten effizienter gestaltet und erhöht
+-> Wirtschaftseffizienz optimiert und erhöht
+-> Die Geschwindigkeitsparameter der KI wurden maximiert.
+-> Die KI baut sich schneller auf mit genügend Ressourcen.
+-> Steuern optimiert und Beliebtheit erhöht
+-> Unnötige Ausgaben reduziert
+-> Ressourcen Management optimiert
+-> Einsatz von Störeinheiten, insbesondere Belagerungsgeräten verbessert
+-> Einsatz von effizienteren Truppentypen
+-> Einsatz Vanilla Burgentypen (Efrey, Tatha, Vanilla etc.) möglich

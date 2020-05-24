@@ -200,7 +200,6 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-MaxPitchrigs 10->5
 			-DefTotal 60->80
 			-DefUnit: 1 FireThrower, 4 ArabArcher
-			-RaidUnit: Assassin
 			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
 			-HarassingSiegeEnginesMax 2->5
 			-AttForceBase 15->50
@@ -215,7 +214,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-SellResource03 None
 			-DefTotal 50->60
 			-DefUnit: 1 FireThrower, 3 Slinger, 1 ArabArcher
-			-RaidUnit: Assassin
+			-RaidUnit: Slave
 			-AttForceBase 10->50
 		-Richard:
 			-Farm: AppleFarm
@@ -473,7 +472,6 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-MaxPitchrigs 10->5
 			-DefTotal 60->80
 			-DefUnit: 1 FireThrower, 4 ArabArcher
-			-RaidUnit: Assassin
 			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
 			-HarassingSiegeEnginesMax 2->5
 			-AttForceBase 15->50
@@ -488,7 +486,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-SellResource03 None
 			-DefTotal 50->60
 			-DefUnit: 1 FireThrower, 3 Slinger, 1 ArabArcher
-			-RaidUnit: Assassin
+			-RaidUnit: Slave
 			-AttForceBase 10->50
 		-Richard: 
 			-Farm: AppleFarm
@@ -899,7 +897,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"DefUnit7": "None",
 				"DefUnit8": "None",
 				"RaidUnitsBase": 15,
-				"RaidUnitsRandom": 30,
+				"RaidUnitsRandom": 5,
 				"RaidUnit1": "Slave",
 				"RaidUnit2": "None",
 				"RaidUnit3": "None",
@@ -1604,7 +1602,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"DefUnit8": "None",
 				"RaidUnitsBase": 15,
 				"RaidUnitsRandom": 5,
-				"RaidUnit1": "Assassin",
+				"RaidUnit1": "Slave",
 				"RaidUnit2": "None",
 				"RaidUnit3": "None",
 				"RaidUnit4": "None",
@@ -1780,7 +1778,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"DefUnit8": "None",
 				"RaidUnitsBase": 15,
 				"RaidUnitsRandom": 5,
-				"RaidUnit1": "Assassin",
+				"RaidUnit1": "Slave",
 				"RaidUnit2": "None",
 				"RaidUnit3": "None",
 				"RaidUnit4": "None",

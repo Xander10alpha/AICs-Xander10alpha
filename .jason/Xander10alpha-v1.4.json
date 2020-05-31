@@ -135,7 +135,6 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Ratte:
 			-MaxWoodcutters 6->4
 			-MaxIronmines 0->1
-			-SortieUnitMeleeMin 6->30
 			-DefTotal 30->60
 			-DefWalls 20->40
 			-DefUnit: EuropArcher
@@ -411,7 +410,6 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Rat: 
 			-MaxWoodcutters 6->4
 			-MaxIronmines 0->1
-			-SortieUnitMeleeMin 6->30
 			-DefTotal 30->60
 			-DefWalls 20->40
 			-DefUnit: EuropArcher

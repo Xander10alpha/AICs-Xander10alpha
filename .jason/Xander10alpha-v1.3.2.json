@@ -69,16 +69,13 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-Alle KIs LowestPopularity von 7500->9700 lassen ihre Beliebtheit nicht mehr so niedrig fallen -> erhöhte Spawnrate für Bauern
 			-Alle KIs HighestPopularity von 10000->9900
 			-Alle KIs TaxesMin auf 3 gesetzt, da sie die Steuer besser setzen können
-			-Alle KIs TaxesMax auf 7 gesetzt, damit können sie bis maximal -8 Steuererheben (alles drüber lohnt sich nicht)
+			-Alle KIs TaxesMax auf 10 gesetzt, damit können sie bis maximal -20 Steuererheben (alles drüber lohnt sich nicht)
 			-Alle KIs angepasste PopulationPer... manchmal kann sie gar nicht alles bauen
 			-Alle KIs PopulationPerFarm auf 2 gesetzt, damit schnell Nahrung reinkommt
 			-Alle KIs PopulationPerWoodcutter auf 2 gesetzt, damit schnell Holz reinkommt
-			-Alle KIs PopulationPerQuarry auf 8 gesetzt (soll sofort ein Steinbruch bauen)
-			-Alle KIs PopulationPerIronmine auf 10 gesetzt (soll sofort eine Eisenmine bauen)
-			-Alle KIs PopulationPerPitchrig auf 15 gesetzt, sonst auf 0, wenn sie kein haben
 			-Alle KIs haben BuildInterval auf 0 gesetzt
 			-Alle KIs ResourceRebuildDelay bei allen auf 20 gesetzt
-			-Alle KIs können jetzt Waffen kaufen und angepassten TradeAmountEquipment
+			-Alle KIs können jetzt Waffen kaufen TradeAmountEquipment auf 2 gesetzt (kauft jetzt 2 Waffen pro Einkauf)
 			-Alle KIs können jetzt selber Burggräben ausheben DefDiggingUnitMax auf 10 oder 30 (Nizar) gesetzt und DefDiggingUnit (nutzt Ausgrab Einheiten außer Baumeister)
 			-Alle KIs AttForceSupportAllyThreshold auf 20 gesetzt
 			-Alle KIs AttForceRallyPercentage auf 10 gesetzt
@@ -123,11 +120,11 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 
 		-Wirtschaft:
 			-Alle KIs MaxWoodcutters siehe jeweilige KI
-			-Alle KIs haben angepasste MaxFood
+			-Alle KIs haben MaxFood 200
 			-Alle KIs TradeAmountFood von 10->2 da er nur 2 Nahrung kaufen soll (eine KI hat damit kein Problem)
-			-Alle KIs haben angepasste (MinimumApples, MinimumCheese, MinimumBread, MinimumWheat, MinimumHop)
+			-Alle KIs alle Nahrungseiheiten (MinimumApples, MinimumCheese, MinimumBread, MinimumWheat) auf 10 und MinimumHop auf 5 gesetzt
 			-Alle KIs haben MinimumGoodsRequiredAfterTrade auf 10, damit sie auch Handeln können
-			-Alle KIs haben angepasste DoubleRationsFoodThreshold oder 0 (wenn sie Nahrung verkauft)
+			-Alle KIs haben jetzt DoubleRationsFoodThreshold auf 20 gesetzt (unter 20 Nahrungseinheiten sind doppelte rationen eingestellt)
 			-Alle KIs haben angepasste Max(Resource)
 			-Alle KIs haben MaxResourceVariance 0
 			-Alle KIs haben angepasste MaxEquipment
@@ -263,9 +260,9 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttForceBase 10->50
 			-SiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 2 Trebuchet, 2 Catapult
 		-Wazir:
-			-MaxIronmines 1->6
-			-MaxPitchrigs 4->1
-			-MaxFarms 8->9
+			-MaxIronmines 1->5
+			-MaxPitchrigs 4->2
+			-MaxFarms 8->6
 			-DefTotal 40->100
 			-DefWalls 40->80
 			-DefUnit: 1 FireThrower, 5 ArabArcher
@@ -275,7 +272,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttForceBase 40->50
 			-SiegeEngine: 1 Trebuchet, 1 FireBallista, 4 Trebuchet, 1 FireBallista, 1 Trebuchet 
 		-Emir: 
-			-Farm: 1 HopFarm, 5 WheatFarm
+			-Farm: 1 HopFarm, 3 WheatFarm
 			-MaxIronmines 3->8
 			-MaxWoodcutters 10->14
 			-MaxFarms 16->6
@@ -288,11 +285,11 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttForceBase 30->50
 			-SiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 2 Trebuchet, 1 FireBallista, 1 Catapult
 		-Nizar:
-			-Farm: 1 HopFarm, 7 WheatFarm
+			-Farm: 1 HopFarm, 3 WheatFarm
 			-MaxQuarries 1->3
 			-MaxIronmines 2->3
 			-MaxWoodcutters 12->8
-			-MaxFarms 16->10
+			-MaxFarms 16->6
 			-DefWalls 80->60
 			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
 			-HarassingSiegeEnginesMax 1->5
@@ -324,7 +321,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttForceBase 10->50
 			-SiegeEngine: 1 Trebuchet, 1 FireBallista, 1 Trebuchet, 2 Catapult, 1 Trebuchet, 2 Catapult
 		-Abt:
-			-Farm: 1 HopFarm, 5 WheatFarm
+			-Farm: 1 HopFarm, 3 WheatFarm
 			-MaxIronmines 2->8
 			-MaxWoodcutters 10->12
 			-MaxFarms 12->6
@@ -346,19 +343,16 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-All AIs LowestPopularity from 7500-> 9700 no longer drop their popularity so low -> increased spawn rate for farmers
 			-All AIs HighestPopularity from 10000-> 9900
 			-All AIs TaxesMin set to 3 because they can set the tax better
-			-All AIs TaxesMax set to 7, so you can collect up to a maximum of -8 taxes (everything about it is not worthwhile)
+			-All AIs TaxesMax set to 10, so you can collect up to a maximum of -20 taxes (everything about it is not worthwhile)
 			-All AIs customized PopulationPer ... sometimes she can't build everything
 			-All AIs PopulationPerFarm set to 2, so that food comes in quickly
 			-All AIs PopulationPerWoodcutter set to 2, so that wood comes in quickly
-			-All KIs PopulationPerQuarry set to 8 (should build a quarry immediately)
-			-All KIs PopulationPerIronmine set to 10 (should build an iron mine immediately)
-			-All KIs PopulationPerPitchrig set to 15, otherwise to 0 if they don't have one
 			-All AIs set BuildInterval to 0
 			-All AIs ResourceRebuildDelay set to 20 for all
-			-All AIs can now buy weapons and customized TradeAmountEquipment
+			-All AIs can now buy weapons TradeAmountEquipment set to 2 (now buys 2 weapons per purchase)
 			-All AIs can now dig moats DefDiggingUnitMax set to 10 or 30 (Nizar) and DefDiggingUnit (uses excavation units other than builders)
-			-All AIs AttForceSupportAllyThreshold KIs set to 20
-			-All AIs AttForceRallyPercentage AIs set to 10
+			-All AttForceSupportAllyThreshold KIs set to 20
+			-All AttForceRallyPercentage AIs set to 10
 			-All AIs have TargetChoice on closet and player (since the AIs jump too often with gold and arise against the worst in balanced group bullying)
 		
 		-Attack or defense behavior:
@@ -399,11 +393,11 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 
 		-Economy:
 			-All AIs MaxWoodcutters see respective AI
-			-All AIs have customized MaxFood
+			-All AIs have MaxFood 200
 			-All AIs TradeAmountFood from 10-> 2 since he should only buy 2 food (an AI has no problem with that)
-			-All AIs have customized (MinimumApples, MinimumCheese, MinimumBread, MinimumWheat, MinimumHop)
+			-All AIs all food units (MinimumApples, MinimumCheese, MinimumBread, MinimumWheat) set to 10 and MinimumHop set to 5
 			-All AIs have MinimumGoodsRequiredAfterTrade at 10 so they can trade
-			-All AIs have adjusted DoubleRationsFoodThreshold or 0 (if they sell food)
+			-All AIs now set DoubleRationsFoodThreshold to 20 (under 20 food units have double rations)
 			-All AIs have customized Max (Resource)
 			-All AIs have MaxResourceVariance 0
 			-All AIs have customized MaxEquipment
@@ -471,7 +465,19 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
 			-HarassingSiegeEnginesMax 5->10
 			-SiegeEngine: 2 Catapult, 1 FireBallista, 1 Catapult, 1 Trebuchet, 1 Catapult, 1 FireBallista, 1 Catapult
-			-AttMaxAssassins 5->50
+			-AttMaxAssassins 5->50		-Caliph: 
+			-Farm: 1 HopFarm, 5 AppleFarm
+			-MaxQuarries 2->4
+			-MaxIronmines 1->4
+			-MaxWoodcutters 8->4
+			-MaxPitchrigs 10->2
+			-DefTotal 60->80
+			-DefUnit: 1 FireThrower, 4 ArabArcher
+			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
+			-HarassingSiegeEnginesMax 2->5
+			-AttForceBase 15->50
+			-SiegeEngine: 1 FireBallista, 1 Catapult abwechselnd
+			-AttMaxAssassins 0->50
 		-Sultan: 
 			-Farm: AppleFarm
 			-MaxQuarries 2->3
@@ -526,9 +532,9 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttForceBase 10->50
 			-SiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 2 Trebuchet, 2 Catapult
 		-Wazir: 
-			-MaxIronmines 1->6
-			-MaxPitchrigs 4->1
-			-MaxFarms 8->9
+			-MaxIronmines 1->5
+			-MaxPitchrigs 4->2
+			-MaxFarms 8->6
 			-DefTotal 40->100
 			-DefWalls 40->80
 			-DefUnit: 1 FireThrower, 5 ArabArcher
@@ -538,7 +544,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttForceBase 40->50
 			-SiegeEngine: 1 Trebuchet, 1 FireBallista, 4 Trebuchet, 1 FireBallista, 1 Trebuchet
 		-Emir: 
-			-Farm: 1 HopFarm, 5 WheatFarm
+			-Farm: 1 HopFarm, 3 WheatFarm
 			-MaxIronmines 3->8
 			-MaxWoodcutters 10->14
 			-MaxFarms 16->6
@@ -551,11 +557,11 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttForceBase 30->50
 			-SiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 2 Trebuchet, 1 FireBallista, 1 Catapult
 		-Nizar: 
-			-Farm: 1 HopFarm, 7 WheatFarm
+			-Farm: 1 HopFarm, 3 WheatFarm
 			-MaxQuarries 1->3
 			-MaxIronmines 2->3
 			-MaxWoodcutters 12->8
-			-MaxFarms 16->10
+			-MaxFarms 16->6
 			-DefWalls 80->60
 			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
 			-HarassingSiegeEnginesMax 1->5
@@ -587,7 +593,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttForceBase 10->50
 			-SiegeEngine: 1 Trebuchet, 1 FireBallista, 1 Trebuchet, 2 Catapult, 1 Trebuchet, 2 Catapult
 		-Abbot:
-			-Farm: 1 HopFarm, 5 WheatFarm
+			-Farm: 1 HopFarm, 3 WheatFarm
 			-MaxIronmines 2->8
 			-MaxWoodcutters 10->12
 			-MaxFarms 12->6
@@ -633,7 +639,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 1,
@@ -643,8 +649,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MaxFarms": 6,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 50,
-				"MinimumApples": 6,
+				"MaxFood": 200,
+				"MinimumApples": 10,
 				"MinimumCheese": 0,
 				"MinimumBread": 0,
 				"MinimumWheat": 0,
@@ -654,13 +660,13 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Unknown040": 18,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 20,
-				"MaxWood": 59,
-				"MaxStone": 23,
+				"MaxWood": 60,
+				"MaxStone": 24,
 				"MaxResourceOther": 1,
 				"MaxEquipment": 23,
 				"MaxBeer": 0,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 12,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Bows",
 				"PoleturnerSetting": "Spears",
@@ -797,7 +803,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 15,
 				"Farm1": "AppleFarm",
 				"Farm2": "None",
@@ -809,7 +815,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 2,
@@ -826,17 +832,17 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumWheat": 0,
 				"MinimumHop": 0,
 				"TradeAmountFood": 2,
-				"TradeAmountEquipment": 5,
+				"TradeAmountEquipment": 2,
 				"Unknown040": 12,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 30,
-				"MaxWood": 155,
-				"MaxStone": 91,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 156,
+				"MaxStone": 92,
 				"MaxResourceOther": 1,
 				"MaxEquipment": 23,
 				"MaxBeer": 0,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 80,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Bows",
 				"PoleturnerSetting": "Spears",
@@ -973,7 +979,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 20,
 				"Farm1": "DairyFarm",
 				"Farm2": "AppleFarm",
@@ -985,7 +991,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "AppleFarm",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 2,
@@ -1005,14 +1011,14 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"TradeAmountEquipment": 2,
 				"Unknown040": 12,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 30,
-				"MaxWood": 143,
-				"MaxStone": 92,
-				"MaxResourceOther": 43,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 144,
+				"MaxStone": 93,
+				"MaxResourceOther": 44,
 				"MaxEquipment": 15,
 				"MaxBeer": 0,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 40,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Maces",
 				"FletcherSetting": "Crossbows",
 				"PoleturnerSetting": "Spears",
@@ -1149,7 +1155,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 12,
 				"Farm1": "HopFarm",
 				"Farm2": "DairyFarm",
@@ -1161,7 +1167,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "AppleFarm",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 9,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 15,
 				"MaxQuarries": 4,
@@ -1171,24 +1177,24 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MaxFarms": 14,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 100,
+				"MaxFood": 200,
 				"MinimumApples": 10,
 				"MinimumCheese": 0,
 				"MinimumBread": 0,
 				"MinimumWheat": 0,
 				"MinimumHop": 5,
-				"TradeAmountFood": 5,
-				"TradeAmountEquipment": 5,
+				"TradeAmountFood": 2,
+				"TradeAmountEquipment": 2,
 				"Unknown040": 20,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 59,
-				"MaxStone": 44,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 60,
+				"MaxStone": 45,
 				"MaxResourceOther": 12,
 				"MaxEquipment": 10,
 				"MaxBeer": 13,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 100,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Crossbows",
 				"PoleturnerSetting": "Pikes",
@@ -1325,19 +1331,19 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 20,
 				"Farm1": "HopFarm",
 				"Farm2": "WheatFarm",
 				"Farm3": "WheatFarm",
 				"Farm4": "WheatFarm",
-				"Farm5": "WheatFarm",
-				"Farm6": "WheatFarm",
+				"Farm5": "None",
+				"Farm6": "None",
 				"Farm7": "None",
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 4,
@@ -1347,24 +1353,24 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MaxFarms": 6,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 100,
+				"MaxFood": 200,
 				"MinimumApples": 0,
 				"MinimumCheese": 0,
 				"MinimumBread": 10,
 				"MinimumWheat": 20,
 				"MinimumHop": 5,
-				"TradeAmountFood": 5,
+				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 0,
 				"Unknown040": 40,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 59,
-				"MaxStone": 43,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 60,
+				"MaxStone": 44,
 				"MaxResourceOther": 26,
 				"MaxEquipment": 0,
 				"MaxBeer": 13,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 100,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Crossbows",
 				"PoleturnerSetting": "Pikes",
@@ -1501,7 +1507,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 12,
 				"Farm1": "HopFarm",
 				"Farm2": "AppleFarm",
@@ -1513,9 +1519,9 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
-				"PopulationPerPitchrig": 15,
+				"PopulationPerPitchrig": 7,
 				"MaxQuarries": 4,
 				"MaxIronmines": 4,
 				"MaxWoodcutters": 4,
@@ -1523,24 +1529,24 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MaxFarms": 10,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 75,
+				"MaxFood": 200,
 				"MinimumApples": 10,
 				"MinimumCheese": 0,
 				"MinimumBread": 0,
 				"MinimumWheat": 0,
 				"MinimumHop": 5,
-				"TradeAmountFood": 5,
+				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 0,
 				"Unknown040": 12,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 59,
-				"MaxStone": 53,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 60,
+				"MaxStone": 54,
 				"MaxResourceOther": 11,
 				"MaxEquipment": 0,
 				"MaxBeer": 13,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 100,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Crossbows",
 				"PoleturnerSetting": "Pikes",
@@ -1677,7 +1683,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 20,
 				"Farm1": "AppleFarm",
 				"Farm2": "None",
@@ -1710,13 +1716,13 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Unknown040": 30,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 59,
-				"MaxStone": 23,
+				"MaxWood": 60,
+				"MaxStone": 24,
 				"MaxResourceOther": 1,
 				"MaxEquipment": 0,
 				"MaxBeer": 0,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 100,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Bows",
 				"PoleturnerSetting": "Spears",
@@ -1853,7 +1859,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 12,
 				"Farm1": "AppleFarm",
 				"Farm2": "None",
@@ -1865,7 +1871,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 4,
@@ -1885,14 +1891,14 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"TradeAmountEquipment": 2,
 				"Unknown040": 22,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 40,
-				"MaxWood": 59,
-				"MaxStone": 43,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 60,
+				"MaxStone": 44,
 				"MaxResourceOther": 14,
-				"MaxEquipment": 23,
+				"MaxEquipment": 11,
 				"MaxBeer": 0,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 40,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Bows",
 				"PoleturnerSetting": "Pikes",
@@ -2029,7 +2035,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 12,
 				"Farm1": "HopFarm",
 				"Farm2": "DairyFarm",
@@ -2041,7 +2047,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "AppleFarm",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 4,
@@ -2051,24 +2057,24 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MaxFarms": 14,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 100,
+				"MaxFood": 200,
 				"MinimumApples": 10,
 				"MinimumCheese": 0,
 				"MinimumBread": 0,
 				"MinimumWheat": 0,
 				"MinimumHop": 5,
-				"TradeAmountFood": 5,
+				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 2,
 				"Unknown040": 22,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 155,
-				"MaxStone": 91,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 156,
+				"MaxStone": 92,
 				"MaxResourceOther": 12,
-				"MaxEquipment": 22,
+				"MaxEquipment": 11,
 				"MaxBeer": 13,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 40,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Crossbows",
 				"PoleturnerSetting": "Pikes",
@@ -2205,7 +2211,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 10,
 				"Farm1": "AppleFarm",
 				"Farm2": "None",
@@ -2217,8 +2223,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
-				"PopulationPerIronmine": 10,
+				"PopulationPerQuarry": 10,
+				"PopulationPerIronmine": 7,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 1,
 				"MaxIronmines": 4,
@@ -2237,14 +2243,14 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"TradeAmountEquipment": 2,
 				"Unknown040": 12,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 30,
-				"MaxWood": 155,
-				"MaxStone": 79,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 156,
+				"MaxStone": 97,
 				"MaxResourceOther": 44,
 				"MaxEquipment": 11,
 				"MaxBeer": 0,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 40,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Bows",
 				"PoleturnerSetting": "Spears",
@@ -2381,7 +2387,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 10,
 				"Farm1": "WheatFarm",
 				"Farm2": "None",
@@ -2393,34 +2399,34 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
-				"PopulationPerPitchrig": 15,
+				"PopulationPerPitchrig": 6,
 				"MaxQuarries": 3,
-				"MaxIronmines": 6,
+				"MaxIronmines": 5,
 				"MaxWoodcutters": 10,
-				"MaxPitchrigs": 1,
-				"MaxFarms": 9,
+				"MaxPitchrigs": 2,
+				"MaxFarms": 6,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 100,
+				"MaxFood": 200,
 				"MinimumApples": 0,
 				"MinimumCheese": 0,
 				"MinimumBread": 10,
 				"MinimumWheat": 20,
 				"MinimumHop": 0,
-				"TradeAmountFood": 5,
+				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 0,
 				"Unknown040": 22,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 20,
-				"MaxWood": 59,
+				"MaxWood": 60,
 				"MaxStone": 40,
 				"MaxResourceOther": 26,
 				"MaxEquipment": 0,
 				"MaxBeer": 0,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 80,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Bows",
 				"PoleturnerSetting": "Spears",
@@ -2557,19 +2563,19 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 10,
 				"Farm1": "HopFarm",
 				"Farm2": "WheatFarm",
 				"Farm3": "WheatFarm",
 				"Farm4": "WheatFarm",
-				"Farm5": "WheatFarm",
-				"Farm6": "WheatFarm",
+				"Farm5": "None",
+				"Farm6": "None",
 				"Farm7": "None",
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 6,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 4,
@@ -2579,24 +2585,24 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MaxFarms": 6,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 100,
+				"MaxFood": 200,
 				"MinimumApples": 0,
 				"MinimumCheese": 0,
 				"MinimumBread": 10,
 				"MinimumWheat": 20,
 				"MinimumHop": 5,
-				"TradeAmountFood": 5,
-				"TradeAmountEquipment": 5,
+				"TradeAmountFood": 2,
+				"TradeAmountEquipment": 2,
 				"Unknown040": 12,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 59,
-				"MaxStone": 43,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 60,
+				"MaxStone": 44,
 				"MaxResourceOther": 26,
 				"MaxEquipment": 46,
 				"MaxBeer": 13,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 80,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Bows",
 				"PoleturnerSetting": "Spears",
@@ -2733,46 +2739,46 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 10,
 				"Farm1": "HopFarm",
 				"Farm2": "WheatFarm",
 				"Farm3": "WheatFarm",
 				"Farm4": "WheatFarm",
-				"Farm5": "WheatFarm",
-				"Farm6": "WheatFarm",
-				"Farm7": "WheatFarm",
-				"Farm8": "WheatFarm",
+				"Farm5": "None",
+				"Farm6": "None",
+				"Farm7": "None",
+				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 15,
 				"MaxQuarries": 3,
 				"MaxIronmines": 3,
 				"MaxWoodcutters": 8,
 				"MaxPitchrigs": 1,
-				"MaxFarms": 10,
+				"MaxFarms": 6,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 100,
+				"MaxFood": 200,
 				"MinimumApples": 0,
 				"MinimumCheese": 0,
 				"MinimumBread": 10,
 				"MinimumWheat": 20,
 				"MinimumHop": 5,
-				"TradeAmountFood": 5,
+				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 0,
 				"Unknown040": 12,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 59,
-				"MaxStone": 43,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 60,
+				"MaxStone": 44,
 				"MaxResourceOther": 26,
 				"MaxEquipment": 0,
 				"MaxBeer": 13,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 80,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Bows",
 				"PoleturnerSetting": "Spears",
@@ -2909,7 +2915,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 10,
 				"Farm1": "HopFarm",
 				"Farm2": "DairyFarm",
@@ -2921,7 +2927,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "AppleFarm",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
+				"PopulationPerQuarry": 10,
 				"PopulationPerIronmine": 10,
 				"PopulationPerPitchrig": 15,
 				"MaxQuarries": 4,
@@ -2931,24 +2937,24 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MaxFarms": 12,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 100,
+				"MaxFood": 200,
 				"MinimumApples": 10,
 				"MinimumCheese": 0,
 				"MinimumBread": 0,
 				"MinimumWheat": 0,
 				"MinimumHop": 5,
-				"TradeAmountFood": 5,
-				"TradeAmountEquipment": 5,
+				"TradeAmountFood": 2,
+				"TradeAmountEquipment": 2,
 				"Unknown040": 40,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 95,
-				"MaxStone": 92,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 96,
+				"MaxStone": 93,
 				"MaxResourceOther": 12,
 				"MaxEquipment": 15,
 				"MaxBeer": 13,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 100,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Maces",
 				"FletcherSetting": "Crossbows",
 				"PoleturnerSetting": "Pikes",
@@ -3085,7 +3091,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 10,
 				"Farm1": "HopFarm",
 				"Farm2": "AppleFarm",
@@ -3097,8 +3103,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
 				"PopulationPerWoodcutter": 2,
-				"PopulationPerQuarry": 8,
-				"PopulationPerIronmine": 10,
+				"PopulationPerQuarry": 10,
+				"PopulationPerIronmine": 7,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 1,
 				"MaxIronmines": 8,
@@ -3107,24 +3113,24 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MaxFarms": 10,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 75,
+				"MaxFood": 200,
 				"MinimumApples": 10,
 				"MinimumCheese": 0,
 				"MinimumBread": 0,
 				"MinimumWheat": 0,
 				"MinimumHop": 5,
-				"TradeAmountFood": 5,
+				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 2,
 				"Unknown040": 12,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 59,
-				"MaxStone": 23,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 60,
+				"MaxStone": 24,
 				"MaxResourceOther": 12,
 				"MaxEquipment": 15,
 				"MaxBeer": 13,
 				"MaxResourceVariance": 0,
-				"RecruitGoldThreshold": 40,
+				"RecruitGoldThreshold": 200,
 				"BlacksmithSetting": "Swords",
 				"FletcherSetting": "Bows",
 				"PoleturnerSetting": "Spears",
@@ -3261,14 +3267,14 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"LowestPopularity": 9700,
 				"HighestPopularity": 9900,
 				"TaxesMin": 3,
-				"TaxesMax": 7,
+				"TaxesMax": 10,
 				"Unknown011": 10,
 				"Farm1": "HopFarm",
 				"Farm2": "WheatFarm",
 				"Farm3": "WheatFarm",
 				"Farm4": "WheatFarm",
-				"Farm5": "WheatFarm",
-				"Farm6": "WheatFarm",
+				"Farm5": "None",
+				"Farm6": "None",
 				"Farm7": "None",
 				"Farm8": "None",
 				"PopulationPerFarm": 2,
@@ -3283,21 +3289,21 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MaxFarms": 6,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 20,
-				"MaxFood": 100,
+				"MaxFood": 200,
 				"MinimumApples": 0,
 				"MinimumCheese": 0,
-				"MinimumBread": 0,
+				"MinimumBread": 10,
 				"MinimumWheat": 20,
-				"MinimumHop": 5,
-				"TradeAmountFood": 5,
-				"TradeAmountEquipment": 5,
+				"MinimumHop": 10,
+				"TradeAmountFood": 2,
+				"TradeAmountEquipment": 2,
 				"Unknown040": 12,
 				"MinimumGoodsRequiredAfterTrade": 10,
-				"DoubleRationsFoodThreshold": 0,
-				"MaxWood": 59,
-				"MaxStone": 44,
+				"DoubleRationsFoodThreshold": 20,
+				"MaxWood": 60,
+				"MaxStone": 45,
 				"MaxResourceOther": 12,
-				"MaxEquipment": 30,
+				"MaxEquipment": 40,
 				"MaxBeer": 13,
 				"MaxResourceVariance": 0,
 				"RecruitGoldThreshold": 1050,

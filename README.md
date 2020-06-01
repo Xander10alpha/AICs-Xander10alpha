@@ -17,8 +17,8 @@ German:
 
 Meine AICs für Stronghold Crusader
 
-Diese AICs dienen dazu Spieler von Stroghold Crusader eine bessere KI zu präsentieren, damit sie eine bessere Herausforderung haben.
-Ich habe strak daruf geachtet das jeder, der den neue Stronghold Crusader Patch hat, damit spielen kann.
+Diese AICs dienen dazu Spieler von Stronghold Crusader eine bessere KI zu präsentieren, damit sie eine bessere Herausforderung haben.
+Ich habe strak darauf geachtet das jeder, der den neue Stronghold Crusader Patch hat, damit spielen kann.
 
 Link zum Patch: https://github.com/Sh0wdown/UnofficialCrusaderPatch/releases
 

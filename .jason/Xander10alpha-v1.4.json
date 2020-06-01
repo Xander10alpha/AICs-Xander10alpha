@@ -175,7 +175,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-TradeAmountEquipment 4->2
 			-DefTotal 100->90
 			-DefWalls 80->70
-			-DefUnit: 1 FireThrower, 4 Crossbowman
+			-DefUnit: 1 FireThrower, 6 Crossbowman, 1 EuropArcher
 			-RaidUnitsBase 5->10
 			-RaidUnit: Assassin
 			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
@@ -450,7 +450,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-TradeAmountEquipment 4->2
 			-DefTotal 100->90
 			-DefWalls 80->70
-			-DefUnit: 1 FireThrower, 4 Crossbowman
+			-DefUnit: 1 FireThrower, 6 Crossbowman, 1 EuropArcher
 			-RaidUnitsBase 5->10
 			-RaidUnit: Assassin
 			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
@@ -1239,9 +1239,9 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"DefUnit3": "Crossbowman",
 				"DefUnit4": "Crossbowman",
 				"DefUnit5": "Crossbowman",
-				"DefUnit6": "None",
-				"DefUnit7": "None",
-				"DefUnit8": "None",
+				"DefUnit6": "Crossbowman",
+				"DefUnit7": "Crossbowman",
+				"DefUnit8": "EuropArcher",
 				"RaidUnitsBase": 15,
 				"RaidUnitsRandom": 20,
 				"RaidUnit1": "Assassin",

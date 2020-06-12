@@ -25,3 +25,5 @@ Link zum Patch: https://github.com/Sh0wdown/UnofficialCrusaderPatch/releases
 Die Burgen vom Evrey, Tatha und Vanilla sind spielbar mit diesen AICs.
 
 Viel Spaß bei dieser Herausforderung!
+
+YT: Xander10alpha

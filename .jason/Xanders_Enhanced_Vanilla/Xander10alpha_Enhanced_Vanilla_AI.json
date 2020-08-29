@@ -79,8 +79,6 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-Alle KIs ResourceRebuildDelay auf 0
 			-Alle KIs können jetzt Waffen kaufen und angepassten TradeAmountEquipment
 			-Alle KIs können jetzt selber Burggräben ausheben DefDiggingUnitMax auf 10 oder 30 (Nizar) gesetzt und DefDiggingUnit (nutzt Ausgrab Einheiten außer Baumeister)
-			-Alle KIs AttForceSupportAllyThreshold auf 20 gesetzt
-			-Alle KIs AttForceRallyPercentage auf 10 gesetzt
 			-Alle KIs haben TargetChoice auf Closet und Player (da die KIs bei Gold zu oft springen und bei Balanced Gruppenmobbing gegen den schlechtesten entsteht)
 
 		-Angriffs bzw. Verteidigungsverhalten:
@@ -98,7 +96,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-Alle KIs SortieUnitMeeleMin auf Tunneler oder Assassin (Richard)
 			-Alle KIs haben angepasste DefDiggingUnitMax
 			-Alle KIs haben günstige DefDiggingUnit
-			-Alle KIs RecruitInterval (alle) auf 0
+			-Alle KIs RecruitInterval auf 0
 			-Alle KIs DefTotal siehe jeweilige KI (2 Truppen mit jeweils 10 patrouillierenden Einheiten)
 			-Alle KIs OuterPatrolGroupsCount auf 2
 			-Alle KIs OuterPatrolGroupsMove auf True
@@ -118,7 +116,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-Alle KIs Unknown142 auf 0
 			-Alle KIs haben AttUnit2 (EuropArcher, HorseArcher, Crossbowman)
 			-Alle KIs AttUnit2Max auf 10 (Ratte, Sultan) oder 20
-			-Alle KIs haben eine AttUnitPatrol None
+			-Alle KIs haben AttUnitPatrol None
 			-Alle KIs AttUnitPatrolMax auf 0
 			-Alle KIs AttUnitPatrolGroupsCount auf 0
 			-Alle KIs haben keine AttUnitBackup
@@ -129,7 +127,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-Alle KIs haben keine AttUnitEngage
 			-Alle KIs AttUnitEngageMax auf 0
 			-Alle KIs haben keine AttUnitSiegeDef
-			-Alle KIs haben eine AttUnitSiegeDefMax auf 0
+			-Alle KIs AttUnitSiegeDefMax auf 0
 			-Alle KIs nutzen jetzt AttMainGroupsCount auf 2
 			-Alle KIs haben angepasste AttUnitMain nutzt alle 4
 
@@ -138,6 +136,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-Alle KIs haben angepasste MaxFood
 			-Alle KIs haben angepasste TradeAmountFood
 			-Alle KIs haben angepasste TradeAmountEquipment
+			-Alle KIs haben Unknown040 auf 0
 			-Alle KIs haben angepasste (MinimumApples, MinimumCheese, MinimumBread, MinimumWheat, MinimumHop)
 			-Alle KIs haben MinimumGoodsRequiredAfterTrade auf 10, damit sie auch Handeln können
 			-Alle KIs haben angepasste DoubleRationsFoodThreshold oder 0 (wenn sie Nahrung verkauft)
@@ -374,36 +373,44 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-All AIs ResourceRebuildDelay to 0 
 			-All AIs can now buy weapons and customized TradeAmountEquipment
 			-All AIs can now dig moats DefDiggingUnitMax set to 10 or 30 (Nizar) and DefDiggingUnit (uses excavation units other than builders)
-			-All AIs AttForceSupportAllyThreshold KIs set to 20
-			-All AIs AttForceRallyPercentage AIs set to 10
 			-All AIs have TargetChoice on closet and player (since the AIs jump too often with gold and arise against the worst in balanced group bullying)
 		
 		-Attack or defense behavior:
 			-All AIs have customized RecruitGoldThreshold
+			-All AIs DefWallPatrolRallyTime on 0
+			-All Ais DefWallPatrolGroups on 0
 			-All AIs DefSiegeEngineGoldThreshold to 100
 			-All AIs DefSiegeEngineBuildDelay to 20 (the time when the KI-Differentiating devices will rebuild)
-			-All AIs have RecruitProb ... Default, RecruitProb ... Weak and RecruitProb ... Strong set to 100
 			-All AIs RecruitProbDefDefault auf 5, RecruitProbRaidDefault auf 20 und RecruitProbAttackDefault 75
 			-All AIs RecruitProbDefWeak on 100 probability with which the AI ​​reinforces defense forces (AI is bad)
 			-All AIs RecruitProbDefStrong on 0, RecruitProbRaidStrong on 20 and RecruitProbAttackStrong on 80 probability (AI is fine)
-			-All AIs RecruitInterval (all) to 0
 			-All AIs SortieUnitRangedMin to 0
 			-All AIs SortieUnitRanged on Tunneler or Assassin (Richard)
 			-All AIs SortieUnitMeeleMin auf 0
 			-All AIs SortieUnitMeeleMin on Tunneler or Assassin (Richard)
 			-All AIs have customized DefDiggingUnitMax
 			-All AIs have cheap DefDiggingUnit
+			-All AIs RecruitInterval on 0
 			-All AIs DefTotal see respective AI (2 troops with 10 units each patrolling)
 			-All AIs OuterPatrolGroupsCount to 2
 			-All AIs OuterPatrolGroupsMove to True
 			-All AIs OuterPatrolRallyDelay on 5
 			-All AIs DefWalls see respective AI
 			-All AIs have customized RaidUnitsBase
+			-All AIs have RaidUnitsRandom on 0
 			-All AIs Unknown124 on 0
 			-All AIs AttForceBase on 20 or 50 (Wolf, Frederick, Sheriff, Abbot)
+			-All AIs AttForceRandom on 0
+			-All AIs AttForceSupportAllyThreshold 20
+			-All AIs AttForceRallyPercentage 10
+			-All AIs Unknown130 auf 0
+			-All AIs AttUnitPatrolRecommandDelay auf 0
+			-All AIs Unknown132 auf 0
+			-All AIs benutzen jetzt bis zu 8 SiegeEngine 
+			-All AIs Unknown142 auf 0
 			-All AIs have AttUnit2 (EuropArcher, HorseArcher, Crossbowman)
 			-All AIs AttUnit2Max to 10 (Rat, Sultan) or 20
-			-All AIs haven't AttUnitPatrol
+			-All AIs have AttUnitPatrol None
 			-All AIs AttUnitPatrolMax to 0
 			-All AIs AttUnitPatrolGroupsCount to 0
 			-All AIs haven't AttUnitBackup
@@ -413,15 +420,17 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-All AIs AttDiggingUnitMax on 20 (Pikeman, Maceman), 30 (Spearman) or on 50 (Slave)
 			-All AIs haven't AttUnitEngage
 			-All AIs AttUnitEngageMax to 0
-			-All AIs haven't an AttUnitSiegeDef
-			-All AIs have an AttUnitSiegeDefMax on 0
+			-All AIs haven't AttUnitSiegeDef
+			-All AIs have AttUnitSiegeDefMax on 0
 			-All AIs use now AttMainGroupsCount on 2
 			-All AIs have customized AttUnitMain uses all 4
 
 		-Economy:
 			-All AIs MaxWoodcutters see respective AI
 			-All AIs have customized MaxFood
-			-All AIs TradeAmountFood from 10-> 2 since he should only buy 2 food (an AI has no problem with that)
+			-All AIs have customized TradeAmountFood
+			-All AIs have customized TradeAmountEquipment
+			-All AIs have Unknown040 auf 0
 			-All AIs have customized (MinimumApples, MinimumCheese, MinimumBread, MinimumWheat, MinimumHop)
 			-All AIs have MinimumGoodsRequiredAfterTrade at 10 so they can trade
 			-All AIs have adjusted DoubleRationsFoodThreshold or 0 (if they sell food)
@@ -690,7 +699,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 0,
 				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 2,
-				"Unknown040": 18,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 30,
 				"MaxWood": 59,
@@ -866,7 +875,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 0,
 				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 5,
-				"Unknown040": 12,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 30,
 				"MaxWood": 203,
@@ -1042,7 +1051,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 0,
 				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 2,
-				"Unknown040": 12,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 30,
 				"MaxWood": 191,
@@ -1218,7 +1227,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 5,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 5,
-				"Unknown040": 20,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 59,
@@ -1394,7 +1403,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 5,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 0,
-				"Unknown040": 40,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 59,
@@ -1570,7 +1579,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 5,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 0,
-				"Unknown040": 12,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 59,
@@ -1746,7 +1755,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 0,
 				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 0,
-				"Unknown040": 30,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 59,
@@ -1922,7 +1931,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 0,
 				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 2,
-				"Unknown040": 22,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 30,
 				"MaxWood": 155,
@@ -2098,7 +2107,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 5,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 2,
-				"Unknown040": 22,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 203,
@@ -2274,7 +2283,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 0,
 				"TradeAmountFood": 2,
 				"TradeAmountEquipment": 2,
-				"Unknown040": 12,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 30,
 				"MaxWood": 203,
@@ -2450,7 +2459,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 0,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 0,
-				"Unknown040": 22,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 30,
 				"MaxWood": 59,
@@ -2626,7 +2635,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 5,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 5,
-				"Unknown040": 12,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 59,
@@ -2802,7 +2811,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 5,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 0,
-				"Unknown040": 12,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 59,
@@ -2978,7 +2987,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 5,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 5,
-				"Unknown040": 40,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 143,
@@ -3154,7 +3163,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 5,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 2,
-				"Unknown040": 12,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 59,
@@ -3330,7 +3339,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"MinimumHop": 5,
 				"TradeAmountFood": 5,
 				"TradeAmountEquipment": 5,
-				"Unknown040": 12,
+				"Unknown040": 0,
 				"MinimumGoodsRequiredAfterTrade": 10,
 				"DoubleRationsFoodThreshold": 0,
 				"MaxWood": 59,

@@ -190,7 +190,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-FletcherSetting Both->Crossbows
 			-DefTotal 100->90
 			-DefWalls 80->70
-			-DefUnit: 1 FireThrower, 6 Crossbowman, 1 ArabArcher
+			-DefUnit: 1 FireThrower, 6 Crossbowman, 1 EuropArcher
 			-RaidUnit: Assassin
 			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
 			-HarassingSiegeEnginesMax: 4->50
@@ -484,7 +484,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-FletcherSetting Both->Crossbows
 			-DefTotal 100->90
 			-DefWalls 80->70
-			-DefUnit: 1 FireThrower, 6 Crossbowman, 1 ArabArcher
+			-DefUnit: 1 FireThrower, 6 Crossbowman, 1 EuropArcher
 			-RaidUnit: Assassin
 			-HarassingSiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 1 FireBallista
 			-HarassingSiegeEnginesMax: 4->50
@@ -1291,7 +1291,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"DefUnit5": "Crossbowman",
 				"DefUnit6": "Crossbowman",
 				"DefUnit7": "Crossbowman",
-				"DefUnit8": "ArabArcher",
+				"DefUnit8": "EuropArcher",
 				"RaidUnitsBase": 3,
 				"RaidUnitsRandom": 0,
 				"RaidUnit1": "Assassin",

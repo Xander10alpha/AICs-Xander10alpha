@@ -27,3 +27,4 @@ Die Burgen vom Evrey, Tatha und Vanilla sind spielbar mit diesen AICs.
 Viel Spaß bei dieser Herausforderung!
 
 YT: Xander10alpha
+https://www.youtube.com/channel/UCYlyixfoKPcz-Ixi6Nc383Q

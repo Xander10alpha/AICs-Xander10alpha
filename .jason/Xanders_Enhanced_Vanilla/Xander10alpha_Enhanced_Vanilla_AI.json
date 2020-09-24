@@ -114,7 +114,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-Alle KIs Unknown132 auf 0
 			-Alle KIs benutzen jetzt bis zu 8 SiegeEngine 
 			-Alle KIs Unknown142 auf 0
-			-Alle KIs haben AttUnit2 (EuropArcher, HorseArcher, Crossbowman)
+			-Alle KIs haben AttUnit2 (EuropArcher, ArabArcher, Crossbowman)
 			-Alle KIs AttUnit2Max auf 10 (Ratte, Sultan) oder 20
 			-Alle KIs haben AttUnitPatrol None
 			-Alle KIs AttUnitPatrolMax auf 0
@@ -408,7 +408,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-All AIs Unknown132 auf 0
 			-All AIs benutzen jetzt bis zu 8 SiegeEngine 
 			-All AIs Unknown142 auf 0
-			-All AIs have AttUnit2 (EuropArcher, HorseArcher, Crossbowman)
+			-All AIs have AttUnit2 (EuropArcher, ArabArcher, Crossbowman)
 			-All AIs AttUnit2Max to 10 (Rat, Sultan) or 20
 			-All AIs have AttUnitPatrol None
 			-All AIs AttUnitPatrolMax to 0
@@ -1509,7 +1509,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"AttMaxEngineers": 17,
 				"AttDiggingUnit": "Slave",
 				"AttDiggingUnitMax": 50,
-				"AttUnit2": "HorseArcher",
+				"AttUnit2": "ArabArcher",
 				"AttUnit2Max": 20,
 				"AttMaxAssassins": 50,
 				"AttMaxLaddermen": 0,
@@ -1685,7 +1685,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"AttMaxEngineers": 16,
 				"AttDiggingUnit": "Slave",
 				"AttDiggingUnitMax": 50,
-				"AttUnit2": "HorseArcher",
+				"AttUnit2": "ArabArcher",
 				"AttUnit2Max": 20,
 				"AttMaxAssassins": 50,
 				"AttMaxLaddermen": 0,
@@ -1861,7 +1861,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"AttMaxEngineers": 0,
 				"AttDiggingUnit": "Slave",
 				"AttDiggingUnitMax": 50,
-				"AttUnit2": "HorseArcher",
+				"AttUnit2": "ArabArcher",
 				"AttUnit2Max": 10,
 				"AttMaxAssassins": 50,
 				"AttMaxLaddermen": 0,
@@ -2565,7 +2565,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"AttMaxEngineers": 22,
 				"AttDiggingUnit": "Slave",
 				"AttDiggingUnitMax": 50,
-				"AttUnit2": "HorseArcher",
+				"AttUnit2": "ArabArcher",
 				"AttUnit2Max": 20,
 				"AttMaxAssassins": 50,
 				"AttMaxLaddermen": 0,
@@ -2917,7 +2917,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"AttMaxEngineers": 20,
 				"AttDiggingUnit": "Slave",
 				"AttDiggingUnitMax": 50,
-				"AttUnit2": "HorseArcher",
+				"AttUnit2": "ArabArcher",
 				"AttUnit2Max": 20,
 				"AttMaxAssassins": 200,
 				"AttMaxLaddermen": 0,

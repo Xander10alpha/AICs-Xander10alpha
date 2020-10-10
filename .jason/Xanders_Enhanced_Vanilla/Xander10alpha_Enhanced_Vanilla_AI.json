@@ -105,7 +105,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-Alle KIs haben angepasste RaidUnitsBase
 			-Alle KIs haben RaidUnitsRandom auf 0
 			-Alle KIs Unknown124 auf 0
-			-Alle KIs AttForceBase auf 20 oder 50 (Wolf, Friedrich, Sheriff, Abt)
+			-Alle KIs AttForceBase auf 20 oder 50 (Wolf, Saladin, Friedrich, Sheriff, Abt)
 			-Alle KIs AttForceRandom auf 0
 			-Alle KIs AttForceSupportAllyThreshold auf 20
 			-Alle KIs AttForceRallyPercentage auf 10
@@ -399,7 +399,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-All AIs have customized RaidUnitsBase
 			-All AIs have RaidUnitsRandom on 0
 			-All AIs Unknown124 on 0
-			-All AIs AttForceBase on 20 or 50 (Wolf, Frederick, Sheriff, Abbot)
+			-All AIs AttForceBase on 20 or 50 (Wolf, Saladin, Frederick, Sheriff, Abbot)
 			-All AIs AttForceRandom on 0
 			-All AIs AttForceSupportAllyThreshold 20
 			-All AIs AttForceRallyPercentage 10
@@ -1488,7 +1488,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"HarassingSiegeEngine8": "None",
 				"HarassingSiegeEnginesMax": 40,
 				"Unknown124": 0,
-				"AttForceBase": 20,
+				"AttForceBase": 50,
 				"AttForceRandom": 0,
 				"AttForceSupportAllyThreshold": 20,
 				"AttForceRallyPercentage": 10,

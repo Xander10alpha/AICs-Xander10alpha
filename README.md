@@ -31,14 +31,22 @@ Viel Spaß bei dieser Herausforderung!
 Castles that works with this AICs:
 
 In Patch:
+
 Vanilla castles
+
 Every's fixed vanilla castles
+
 Every's improved AI castles
+
 Tatha's improved AI castles (but not with the no_tatha AIC!!!)
 
 Other vanilla castles setups:
+
 Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI
+
 FAPLZ: https://github.com/FAPLZ/AIV-files-for-Stronghold-Crusader
+
 Truetobi91: https://github.com/Truetobi91/Truetobis-Personal-AI-for-Stronghold-Crusader (but his own AIC is better for some AIs for example "The Rat")
+
 until now!
 

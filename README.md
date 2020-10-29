@@ -28,9 +28,9 @@ Die Burgen vom Evrey, Tatha und Vanilla sind spielbar mit diesen AICs.
 
 Viel Spaß bei dieser Herausforderung!
 
-Castles that works with this AICs:
+##Castles that works with this AICs:
 
-In Patch:
+##In Patch:
 
 Vanilla castles
 

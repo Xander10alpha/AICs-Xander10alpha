@@ -30,7 +30,7 @@ Viel Spaß bei dieser Herausforderung!
 
 # Castles that works with this AICs:
 
-## In Patch:
+## In Unofficial Crusader Patch:
 
 Vanilla castles
 
@@ -42,7 +42,7 @@ Tatha's improved AI castles (but not with the no_tatha AIC!!!)
 
 ## Other vanilla castles setups:
 
-Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI
+Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI (good for multiplayer games with/against AI)
 
 FAPLZ: https://github.com/FAPLZ/AIV-files-for-Stronghold-Crusader
 

@@ -28,9 +28,9 @@ Die Burgen vom Evrey, Tatha und Vanilla sind spielbar mit diesen AICs.
 
 Viel Spaß bei dieser Herausforderung!
 
-##Castles that works with this AICs:
+# Castles that works with this AICs:
 
-##In Patch:
+## In Patch:
 
 Vanilla castles
 
@@ -40,7 +40,7 @@ Every's improved AI castles
 
 Tatha's improved AI castles (but not with the no_tatha AIC!!!)
 
-Other vanilla castles setups:
+## Other vanilla castles setups:
 
 Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI
 

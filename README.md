@@ -1,4 +1,6 @@
 # AICs-Xander10alpha
+YT: Xander10alpha
+https://www.youtube.com/channel/UCYlyixfoKPcz-Ixi6Nc383Q
 
 English:
 
@@ -26,5 +28,25 @@ Die Burgen vom Evrey, Tatha und Vanilla sind spielbar mit diesen AICs.
 
 Viel Spaß bei dieser Herausforderung!
 
-YT: Xander10alpha
-https://www.youtube.com/channel/UCYlyixfoKPcz-Ixi6Nc383Q
+# Castles that works absolutly with my AICs:
+
+## In Unofficial Crusader Patch:
+
+Vanilla castles
+
+Every's fixed vanilla castles
+
+Every's improved AI castles
+
+Tatha's improved AI castles (but not with the no_tatha AIC!!!)
+
+## Other vanilla castles setups:
+
+Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI (good for multiplayer games with/against AI and my personal recommandation)
+
+FAPLZ: https://github.com/FAPLZ/AIV-files-for-Stronghold-Crusader
+
+Truetobi91: https://github.com/Truetobi91/Truetobis-Personal-AI-for-Stronghold-Crusader (but his own AIC is better for some AIs for example "The Rat")
+
+until now!
+

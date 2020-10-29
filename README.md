@@ -42,7 +42,7 @@ Tatha's improved AI castles (but not with the no_tatha AIC!!!)
 
 ## Other vanilla castles setups:
 
-Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI (good for multiplayer games with/against AI)
+Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI (good for multiplayer games with/against AI and my personal recommandation)
 
 FAPLZ: https://github.com/FAPLZ/AIV-files-for-Stronghold-Crusader
 

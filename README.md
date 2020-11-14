@@ -40,6 +40,8 @@ Every's improved AI castles
 
 Tatha's improved AI castles (but not with the no_tatha AIC!!!)
 
+PitchNeededs Every Edit Castels both
+
 ## Other vanilla castles setups:
 
 Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI (good for multiplayer games with/against AI and my personal recommandation)

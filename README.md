@@ -44,7 +44,7 @@ PitchNeededs Every Edit Castels (both setups)
 
 ## Other vanilla castles setups:
 
-Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI (good for multiplayer games with/against AI and my personal recommandation)
+Krarilotus: https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI (good for multiplayer games with/against AI and my personal recommendation)
 
 FAPLZ: https://github.com/FAPLZ/AIV-files-for-Stronghold-Crusader
 

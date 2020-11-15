@@ -40,7 +40,7 @@ Every's improved AI castles
 
 Tatha's improved AI castles (but not with the no_tatha AIC!!!)
 
-PitchNeededs Every Edit Castels (both)
+PitchNeededs Every Edit Castels (both setups)
 
 ## Other vanilla castles setups:
 

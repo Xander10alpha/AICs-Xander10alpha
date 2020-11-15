@@ -38,7 +38,7 @@ Every's fixed vanilla castles
 
 Every's improved AI castles
 
-Tatha's improved AI castles (but not with the no_tatha AIC!!!)
+Tatha's improved AI castles (but not with the improved AIC!!!)
 
 PitchNeededs Every Edit Castels (both setups)
 

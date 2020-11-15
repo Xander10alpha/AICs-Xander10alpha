@@ -50,5 +50,9 @@ FAPLZ: https://github.com/FAPLZ/AIV-files-for-Stronghold-Crusader
 
 Truetobi91: https://github.com/Truetobi91/Truetobis-Personal-AI-for-Stronghold-Crusader (but his own AIC is better for some AIs for example "The Rat")
 
+## AIs
+
+Drachenlord: http://share.cherrytree.at/showfile-33205/rainer_w_mod.rar (its change the Caliph -> Drachenlord, castle 3 have no Trade Post dont use it!)
+
 until now!
 

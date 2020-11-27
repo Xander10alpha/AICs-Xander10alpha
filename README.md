@@ -45,7 +45,7 @@ Viel Spaß bei dieser Herausforderung!
 
 ## AIs
 
-* Mett Entertainment 2.0 [Drachenlord AI:](http://share.cherrytree.at/showfile-33205/rainer_w_mod.rar) (its change the Caliph -> Drachenlord, castle 3 have no Trade Post dont use it!)
+* Mett Entertainment 2.0 [Drachenlord AI:](http://share.cherrytree.at/showfile-33205/rainer_w_mod.rar) its change the Caliph -> Drachenlord, castle 3 have no Trade Post dont use it!
 
 until now!
 

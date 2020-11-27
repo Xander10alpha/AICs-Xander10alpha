@@ -39,15 +39,13 @@ Viel Spaß bei dieser Herausforderung!
 
 ## Other vanilla castles setups:
 
-[Krarilotus:](https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI) good for multiplayer games with/against AI and my personal recommendation
-
-[FAPLZ:](https://github.com/FAPLZ/AIV-files-for-Stronghold-Crusader)
-
-[Truetobi91:](https://github.com/Truetobi91/Truetobis-Personal-AI-for-Stronghold-Crusader) but his own AIC is better for some AIs for example "The Rat"
+* [Krarilotus:](https://github.com/Krarilotus/Stronghold-Crusader-efficient-AI) good for multiplayer games with/against AI and my personal recommendation
+* [FAPLZ:](https://github.com/FAPLZ/AIV-files-for-Stronghold-Crusader)
+* [Truetobi91:](https://github.com/Truetobi91/Truetobis-Personal-AI-for-Stronghold-Crusader) but his own AIC is better for some AIs for example "The Rat"
 
 ## AIs
 
-Mett Entertainment 2.0 [Drachenlord AI:](http://share.cherrytree.at/showfile-33205/rainer_w_mod.rar) (its change the Caliph -> Drachenlord, castle 3 have no Trade Post dont use it!)
+* Mett Entertainment 2.0 [Drachenlord AI:](http://share.cherrytree.at/showfile-33205/rainer_w_mod.rar) (its change the Caliph -> Drachenlord, castle 3 have no Trade Post dont use it!)
 
 until now!
 

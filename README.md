@@ -14,7 +14,7 @@ The castles of Evrey, Tatha and Vanilla are playable with these AICs.
 
 Have fun with this challenge!
 
-Here to the [Latest release](https://github.com/Xander10alpha/AICs-Xander10alpha/releases)
+Here to the [latest release](https://github.com/Xander10alpha/AICs-Xander10alpha/releases)
 
 German:
 
@@ -29,7 +29,7 @@ Die Burgen vom Evrey, Tatha und Vanilla sind spielbar mit diesen AICs.
 
 Viel Spaß bei dieser Herausforderung!
 
-Hier zum [Latest release](https://github.com/Xander10alpha/AICs-Xander10alpha/releases)
+Hier zum [letzten release](https://github.com/Xander10alpha/AICs-Xander10alpha/releases)
 
 # Castles that works absolutly with my AICs:
 

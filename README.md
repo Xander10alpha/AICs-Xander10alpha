@@ -1,5 +1,5 @@
 # AICs-Xander10alpha
-YT: [Xander10alpha](https://www.youtube.com/channel/UCYlyixfoKPcz-Ixi6Nc383Q)
+YouTube: [Xander10alpha](https://www.youtube.com/channel/UCYlyixfoKPcz-Ixi6Nc383Q)
 
 ## English:
 

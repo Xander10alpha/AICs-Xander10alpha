@@ -1,7 +1,7 @@
 # AICs-Xander10alpha
 YT: [Xander10alpha](https://www.youtube.com/channel/UCYlyixfoKPcz-Ixi6Nc383Q)
 
-English:
+## English:
 
 My AICs for Stronghold Crusader
 
@@ -16,7 +16,7 @@ Have fun with this challenge!
 
 Here to the [latest release:](https://github.com/Xander10alpha/AICs-Xander10alpha/releases)
 
-German:
+## Deutsch:
 
 Meine AICs für Stronghold Crusader
 

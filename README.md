@@ -14,7 +14,7 @@ The castles of Evrey, Tatha and Vanilla are playable with these AICs.
 
 Have fun with this challenge!
 
-Here to the [latest release:](https://github.com/Xander10alpha/AICs-Xander10alpha/releases)
+Here to the [latest release](https://github.com/Xander10alpha/AICs-Xander10alpha/releases) my AIC:
 
 ## Deutsch:
 
@@ -23,7 +23,7 @@ Meine AICs für Stronghold Crusader
 Diese AICs dienen dazu Spieler von Stronghold Crusader eine bessere KI zu präsentieren, damit sie eine bessere Herausforderung haben.
 Ich habe strak darauf geachtet das jeder, der den neue Stronghold Crusader Patch hat, damit spielen kann.
 
-[Link zum Patch](https://github.com/Sh0wdown/UnofficialCrusaderPatch/releases) my AIC:
+[Link zum Patch:](https://github.com/Sh0wdown/UnofficialCrusaderPatch/releases)
 
 Die Burgen vom Evrey, Tatha und Vanilla sind spielbar mit diesen AICs.
 

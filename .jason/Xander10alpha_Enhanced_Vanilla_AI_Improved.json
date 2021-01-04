@@ -64,6 +64,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 
 		Alle Änderungen sind von der Original vanilla.aic.
 
+		Wichtig: Funktioniert nicht mit Tatha Burgen!!!!
+
 		-Allgemein:
 			-Alle KIs CriticalPopularity von 4900->7500
 			-Alle KIs LowestPopularity von 7500->9700 lassen ihre Beliebtheit nicht mehr so niedrig fallen -> erhöhte Spawnrate für Bauern
@@ -155,10 +157,10 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-DefUnit: EuropArcher
 			-RaidUnit: EuropArcher
 		-Schlange:
-			-MaxQuarries 2->2
-			-MaxIronmines 0->1
-			-MaxWoodcutters 10->4
-			-MaxFarm 10->8
+			-MaxQuarries 2->3
+			-MaxIronmines 0->3
+			-MaxWoodcutters 10->6
+			-MaxFarm 10->10
 			-SellResource3 None
 			-DefTotal 80->70
 			-DefWalls 50->50
@@ -170,7 +172,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttMaxAssassins 0->40
 		-Schwein:
 			-Farm: 1 AppleFarm, 1 DairyFarm, 6 AppleFarm
-			-MaxQuarries 2->2
+			-MaxQuarries 2->3
 			-MaxWoodcutters 8->8
 			-MaxIronmines 4->5
 			-MaxPitchrigs 1->0
@@ -198,8 +200,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Saladin: 
 			-Farm: 1 WheatFarm, 1 HopFarm, 3 WheatFarm
 			-MaxQuarries 4->4
-			-MaxIronmines 4->10
-			-MaxWoodcutters 14->10
+			-MaxIronmines 4->14
+			-MaxWoodcutters 14->11
 			-MaxFarms 15->6
 			-SellResource4 Pitch, SellResource13 Swords, SellResource15 IronArmors
 			-DefTotal 70->80
@@ -213,7 +215,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Kalif:
 			-Farm: 1 AppleFarm, 1 HopFarm, 6 AppleFarm
 			-MaxQuarries 2->4
-			-MaxIronmines 1->3
+			-MaxIronmines 1->7
 			-MaxWoodcutters 8->6
 			-MaxPitchrigs 10->1
 			-DefTotal 60->80
@@ -227,7 +229,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Sultan:
 			-Farm: AppleFarm
 			-MaxQuarries 2->3
-			-MaxIronmines 0->1
+			-MaxIronmines 0->2
 			-MaxWoodcutters 15->3
 			-MaxFarms 0->3
 			-SellResource03 None
@@ -238,9 +240,9 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Richard:
 			-Farm: AppleFarm
 			-MaxQuarries 3->4
-			-MaxIronmines 4->7
-			-MaxWoodcutters 10->7
-			-MaxFarms 15->12
+			-MaxIronmines 4->9
+			-MaxWoodcutters 10->10
+			-MaxFarms 15->16
 			-DefTotal 40->70
 			-DefWalls 20->50
 			-DefUnit: 1 EuropArcher, 1 Pikeman, 4 EuropArcher
@@ -266,10 +268,10 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-SiegeEngine: 3 Trebuchet, 1 Catapult, 2 Trebuchet, 2 Catapult
 			-AttDiggingUnit Pikeman
 		-Phillip:
-			-MaxQuarries 0->1
-			-MaxIronmines 3->3
-			-MaxWoodcutters 10->4
-			-MaxFarms 8->8
+			-MaxQuarries 0->3
+			-MaxIronmines 3->5
+			-MaxWoodcutters 10->6
+			-MaxFarms 8->12
 			-DefTotal 20->70
 			-DefWalls 4->50
 			-DefUnit: EuropArcher
@@ -278,8 +280,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-HarassingSiegeEnginesMax 1->20
 			-SiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 2 Trebuchet, 2 Catapult
 		-Wazir:
-			-MaxQuarries 3->3
-			-MaxIronmines 1->6
+			-MaxQuarries 3->4
+			-MaxIronmines 1->5
 			-MaxPitchrigs 4->1
 			-MaxFarms 8->9
 			-DefTotal 40->80
@@ -292,8 +294,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Emir: 
 			-Farm: 1 WheatFarm, 1 HopFarm, 3 WheatFarm
 			-MaxQuarries 4->4
-			-MaxIronmines 3->9
-			-MaxWoodcutters 10->9
+			-MaxIronmines 3->10
+			-MaxWoodcutters 10->10
 			-MaxFarms 16->6
 			-DefTotal 50->80
 			-DefWalls 50->60
@@ -331,8 +333,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Marschall: 
 			-Farm: 1 AppleFarm, 1 HopFarm, 6 AppleFarm
 			-MaxQuarries 1->1
-			-MaxIronmines 1->6
-			-MaxWoodcutters 8->7
+			-MaxIronmines 1->8
+			-MaxWoodcutters 8->6
 			-MaxFarms 9->10
 			-DefTotal 40->70
 			-DefWalls 30->50
@@ -342,7 +344,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Abt:
 			-Farm: 1 WheatFarm, 1 HopFarm, 3 WheatFarm
 			-MaxQuarries 4->4
-			-MaxIronmines 2->8
+			-MaxIronmines 2->12
 			-MaxWoodcutters 10->10
 			-MaxFarms 12->6
 			-SellResource11 None, SellResource15 None
@@ -357,6 +359,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
   "English": "This .aic comes from Xander10alpha and fixes the following bugs and quirks of the AIs:
 
 		All changes are from the original vanilla.aic.
+
+		Important: Doesn't work with Tatha castles !!!!
 
 		-General:
 			-All AIs CriticalPopularity from 4900-> 7500
@@ -449,10 +453,10 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-DefUnit: EuropArcher
 			-RaidUnit: EuropArcher
 		-Snake:
-			-MaxQuarries 2->2
-			-MaxIronmines 0->1
-			-MaxWoodcutters 10->4
-			-MaxFarm 10->8
+			-MaxQuarries 2->3
+			-MaxIronmines 0->3
+			-MaxWoodcutters 10->6
+			-MaxFarm 10->10
 			-SellResource3 None
 			-DefTotal 80->70
 			-DefWalls 50->50
@@ -464,7 +468,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-AttMaxAssassins 0->40
 		-Pig:
 			-Farm: 1 AppleFarm, 1 DairyFarm, 6 AppleFarm
-			-MaxQuarries 2->2
+			-MaxQuarries 2->3
 			-MaxWoodcutters 8->8
 			-MaxIronmines 4->5
 			-MaxPitchrigs 1->0
@@ -492,8 +496,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Saladin: 
 			-Farm: 1 WheatFarm, 1 HopFarm, 3 WheatFarm
 			-MaxQuarries 4->4
-			-MaxIronmines 4->10
-			-MaxWoodcutters 14->10
+			-MaxIronmines 4->14
+			-MaxWoodcutters 14->11
 			-MaxFarms 15->6
 			-SellResource4 Pitch, SellResource13 Swords, SellResource15 IronArmors
 			-DefTotal 70->80
@@ -507,7 +511,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Caliph:
 			-Farm: 1 AppleFarm, 1 HopFarm, 6 AppleFarm
 			-MaxQuarries 2->4
-			-MaxIronmines 1->3
+			-MaxIronmines 1->7
 			-MaxWoodcutters 8->6
 			-MaxPitchrigs 10->1
 			-DefTotal 60->80
@@ -521,7 +525,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Sultan:
 			-Farm: AppleFarm
 			-MaxQuarries 2->3
-			-MaxIronmines 0->1
+			-MaxIronmines 0->2
 			-MaxWoodcutters 15->3
 			-MaxFarms 0->3
 			-SellResource03 None
@@ -532,9 +536,9 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Richard:
 			-Farm: AppleFarm
 			-MaxQuarries 3->4
-			-MaxIronmines 4->7
-			-MaxWoodcutters 10->7
-			-MaxFarms 15->12
+			-MaxIronmines 4->9
+			-MaxWoodcutters 10->10
+			-MaxFarms 15->16
 			-DefTotal 40->70
 			-DefWalls 20->50
 			-DefUnit: 1 EuropArcher, 1 Pikeman, 4 EuropArcher
@@ -560,10 +564,10 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-SiegeEngine: 3 Trebuchet, 1 Catapult, 2 Trebuchet, 2 Catapult
 			-AttDiggingUnit Pikeman
 		-Phillip:
-			-MaxQuarries 0->1
-			-MaxIronmines 3->3
-			-MaxWoodcutters 10->4
-			-MaxFarms 8->8
+			-MaxQuarries 0->3
+			-MaxIronmines 3->5
+			-MaxWoodcutters 10->6
+			-MaxFarms 8->12
 			-DefTotal 20->70
 			-DefWalls 4->50
 			-DefUnit: EuropArcher
@@ -572,8 +576,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 			-HarassingSiegeEnginesMax 1->20
 			-SiegeEngine: 1 Catapult, 1 FireBallista, 2 Catapult, 2 Trebuchet, 2 Catapult
 		-Wazir:
-			-MaxQuarries 3->3
-			-MaxIronmines 1->6
+			-MaxQuarries 3->4
+			-MaxIronmines 1->5
 			-MaxPitchrigs 4->1
 			-MaxFarms 8->9
 			-DefTotal 40->80
@@ -586,8 +590,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Emir: 
 			-Farm: 1 WheatFarm, 1 HopFarm, 3 WheatFarm
 			-MaxQuarries 4->4
-			-MaxIronmines 3->9
-			-MaxWoodcutters 10->9
+			-MaxIronmines 3->10
+			-MaxWoodcutters 10->10
 			-MaxFarms 16->6
 			-DefTotal 50->80
 			-DefWalls 50->60
@@ -625,8 +629,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Marschal: 
 			-Farm: 1 AppleFarm, 1 HopFarm, 6 AppleFarm
 			-MaxQuarries 1->1
-			-MaxIronmines 1->6
-			-MaxWoodcutters 8->7
+			-MaxIronmines 1->8
+			-MaxWoodcutters 8->6
 			-MaxFarms 9->10
 			-DefTotal 40->70
 			-DefWalls 30->50
@@ -636,7 +640,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 		-Abbot:
 			-Farm: 1 WheatFarm, 1 HopFarm, 3 WheatFarm
 			-MaxQuarries 4->4
-			-MaxIronmines 2->8
+			-MaxIronmines 2->12
 			-MaxWoodcutters 10->10
 			-MaxFarms 12->6
 			-SellResource11 None, SellResource15 None
@@ -860,11 +864,11 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerQuarry": 1,
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 0,
-				"MaxQuarries": 2,
-				"MaxIronmines": 1,
-				"MaxWoodcutters": 4,
+				"MaxQuarries": 3,
+				"MaxIronmines": 3,
+				"MaxWoodcutters": 6,
 				"MaxPitchrigs": 0,
-				"MaxFarms": 8,
+				"MaxFarms": 10,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 0,
 				"MaxFood": 100,
@@ -1036,7 +1040,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerQuarry": 1,
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 0,
-				"MaxQuarries": 2,
+				"MaxQuarries": 3,
 				"MaxIronmines": 5,
 				"MaxWoodcutters": 8,
 				"MaxPitchrigs": 0,
@@ -1389,8 +1393,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 4,
-				"MaxIronmines": 10,
-				"MaxWoodcutters": 10,
+				"MaxIronmines": 14,
+				"MaxWoodcutters": 11,
 				"MaxPitchrigs": 0,
 				"MaxFarms": 6,
 				"BuildInterval": 0,
@@ -1565,10 +1569,10 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 40,
 				"MaxQuarries": 4,
-				"MaxIronmines": 3,
+				"MaxIronmines": 7,
 				"MaxWoodcutters": 6,
 				"MaxPitchrigs": 1,
-				"MaxFarms": 10,
+				"MaxFarms": 12,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 0,
 				"MaxFood": 100,
@@ -1741,7 +1745,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 3,
-				"MaxIronmines": 1,
+				"MaxIronmines": 2,
 				"MaxWoodcutters": 3,
 				"MaxPitchrigs": 0,
 				"MaxFarms": 3,
@@ -1917,10 +1921,10 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 4,
-				"MaxIronmines": 7,
-				"MaxWoodcutters": 7,
+				"MaxIronmines": 9,
+				"MaxWoodcutters": 10,
 				"MaxPitchrigs": 0,
-				"MaxFarms": 12,
+				"MaxFarms": 16,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 0,
 				"MaxFood": 100,
@@ -2268,11 +2272,11 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerQuarry": 1,
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 0,
-				"MaxQuarries": 1,
-				"MaxIronmines": 3,
-				"MaxWoodcutters": 4,
+				"MaxQuarries": 3,
+				"MaxIronmines": 5,
+				"MaxWoodcutters": 6,
 				"MaxPitchrigs": 0,
-				"MaxFarms": 8,
+				"MaxFarms": 12,
 				"BuildInterval": 0,
 				"ResourceRebuildDelay": 0,
 				"MaxFood": 100,
@@ -2444,8 +2448,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerQuarry": 1,
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 40,
-				"MaxQuarries": 3,
-				"MaxIronmines": 6,
+				"MaxQuarries": 4,
+				"MaxIronmines": 5,
 				"MaxWoodcutters": 10,
 				"MaxPitchrigs": 1,
 				"MaxFarms": 9,
@@ -2621,8 +2625,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 4,
-				"MaxIronmines": 9,
-				"MaxWoodcutters": 9,
+				"MaxIronmines": 10,
+				"MaxWoodcutters": 10,
 				"MaxPitchrigs": 0,
 				"MaxFarms": 6,
 				"BuildInterval": 0,
@@ -3149,8 +3153,8 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 1,
-				"MaxIronmines": 6,
-				"MaxWoodcutters": 7,
+				"MaxIronmines": 8,
+				"MaxWoodcutters": 6,
 				"MaxPitchrigs": 0,
 				"MaxFarms": 10,
 				"BuildInterval": 0,
@@ -3325,7 +3329,7 @@ Celem jest usprawnienie botów, aby były dla gracza jak największym wyzwaniem.
 				"PopulationPerIronmine": 1,
 				"PopulationPerPitchrig": 0,
 				"MaxQuarries": 4,
-				"MaxIronmines": 9,
+				"MaxIronmines": 12,
 				"MaxWoodcutters": 10,
 				"MaxPitchrigs": 0,
 				"MaxFarms": 6,
